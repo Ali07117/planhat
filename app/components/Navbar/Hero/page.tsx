@@ -8,10 +8,10 @@ function Hero() {
         <p className='font-alt font-[400] font-[16px] text-[#FFFFFF] bg-[linear-gradient(90deg,#d1d1d1_40%,rgba(0,0,0,0)_150%)] bg-clip-text text-transparent'>The AI-Native CRM built to acquire lifelong customers.</p>
         </div>
         <div className='flex h-[600px] hero-box mt-[50px]' >
-            <div className="left -bg-[red] hero-left w-[60%]  h-[100%] bg-[linear-gradient(90deg,#000000_29.71%,rgba(0,0,0,0)_90.53%)]"  style={{backgroundImage:"linear-gradient(270deg,#000000 10.71%,rgba(0,0,0,0) 90.53%), url('/assets/heroimg.svg')",}}>
+            <div className="left -bg-[red] hero-left w-[70%]  h-[100%] bg-[linear-gradient(90deg,#000000_29.71%,rgba(0,0,0,0)_90.53%)]"  style={{backgroundImage:"linear-gradient(270deg,#000000 10.71%,rgba(0,0,0,0) 90.53%), url('/assets/heroimg.svg')", backgroundRepeat:"no-repeat"}}>
                 {/* <img src="/assets/heroimg.svg" alt="" /> */}
             </div>
-            <div className="right -bg-[green] hero-right w-[40%] pt-[30px] h-[100%]">
+            <div className="right -bg-[green] hero-right pt-[30px] h-[100%]">
                 <div className='flex gap-[6px] items-center'>
                     <img className='h-[22px] w-[20px]' src="/assets/reviewlogo.svg" alt="" />
                     <img className='h-[16px] w-[16px]' src="/assets/reviewstar.svg" alt="" />
