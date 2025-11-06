@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 function Marque() {
   return (
-    <div className="bg-black marque-container mt-[180px]">
+    <div className="bg-black mx-[300px] mx-200 marque-container mt-[180px]">
     <Marquee
       speed={50}
       pauseOnHover

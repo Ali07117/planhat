@@ -3,7 +3,7 @@ import React from 'react';
 function Collaboration
 () {
   return (
-    <div className=' mx-[100px] one-platform'>
+    <div className=' mx-[200px] mx-200 one-platform'>
         <div className='flex margin-topp mt-[180px] flex-col one-platform-heading-container items-center gap-[35px] mt-[100px] bg-[linear-gradient(270.25deg,rgba(0,0,0,0.4)_0%,#000000_100%)]'>
             <p className='font-[500] text-[12px] bg-[linear-gradient(90deg,#FFA270_0%,#BF4200_100%)] bg-clip-text text-transparent'>COLLABORATION</p>
       <p className='font-[500] one-platform-heading text-[54.5px] leading-[80%] font-sans bg-[linear-gradient(90deg,#d1d1d1_40%,rgba(0,0,0,0)_150%)] bg-clip-text text-transparent text-center leading-[110%]'>Eliminate Siloes,<br /> Maximize Collaboration.</p>

@@ -11,18 +11,20 @@ function Blockbrain() {
     </div>
     <div className='h-[400px] hidden mobile-earth blockbrain-image-text bg-[linear-gradient(90deg,#000000_29.71%,rgba(0,0,0,0)_90.53%)] px-[100px] flex items-center pt-[80px] mt-[120px]' style={{ backgroundImage: "linear-gradient(90deg,#000000 1.71%,rgba(0,0,0,0) 20.53%), url('/assets/mobileearth.svg')", backgroundSize: "cover", backgroundPosition: "top",
   }}>
-    <div className='w-[475px]'>
+    <div className='w-[475px] mobile-earth-text-container'>
     <p className='font-sans font-[500] block-brain-image-heading text-[#FFFFFF] text-[28.9px]'>Create exceptional experiences</p>
     <p className='text-[19px] font-[400] block-brain-image-sub-heading font-sans text-[#FFFFFF] mt-[15px]'>We're powering over 2.6 million successful customer relationships.</p>
     <button className='text-[#FFFFFF] text-[14px] font-sans font-[500] mt-[40px] h-[48px] w-[190px] pl-[20px] py-[8px] text-left border-[1px] border-[#FFFFFF3C] rounded-[100px] '>Speak to an expert</button>
     </div>
   </div>
-    <div className='h-[400px] laptop-earth blockbrain-image-text bg-[linear-gradient(90deg,#000000_29.71%,rgba(0,0,0,0)_90.53%)] px-[100px] flex items-center mt-[120px]' style={{ backgroundImage: "linear-gradient(90deg,#000000 1.71%,rgba(0,0,0,0) 20.53%), url('/assets/blockbrainimg.svg')", backgroundSize: "cover", backgroundPosition: "center",
+    <div className='h-[400px] laptop-earth blockbrain-image-text  bg-[linear-gradient(90deg,#000000_29.71%,rgba(0,0,0,0)_90.53%)] px-200 px-[200px] m-auto flex items-center mt-[120px]' style={{ backgroundImage: "linear-gradient(90deg,#000000 1.71%,rgba(0,0,0,0) 20.53%), url('/assets/blockbrainimg.svg')", backgroundSize: "cover", backgroundPosition: "center",
   }}>
+    <div className='w-[100%] max-w-[1300px] m-auto'>
     <div className='w-[475px]'>
     <p className='font-sans font-[500] block-brain-image-heading text-[#FFFFFF] text-[28.9px]'>Create exceptional experiences</p>
     <p className='text-[19px] font-[400] block-brain-image-sub-heading font-sans text-[#FFFFFF] mt-[15px]'>We're powering over 2.6 million successful customer relationships.</p>
     <button className='text-[#FFFFFF] text-[14px] font-sans font-[500] mt-[40px] h-[48px] w-[190px] pl-[20px] py-[8px] text-left border-[1px] border-[#FFFFFF3C] rounded-[100px] '>Speak to an expert</button>
+    </div>
     </div>
   </div>
     </>

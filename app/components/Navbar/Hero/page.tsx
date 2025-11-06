@@ -2,7 +2,7 @@ import React from 'react';
 
 function Hero() {
   return (
-    <div className='mx-[100px] hero-container '>
+    <div className='mx-[180px] hero-container '>
         <div className='flex flex-col hero-heading-gap items-center gap-[45px] mt-[100px] bg-[linear-gradient(270.25deg,rgba(0,0,0,0.4)_0%,#000000_100%)]'>
         <p className='font-[500] text-center hero-main-text text-[71.4px] leading-[100%] font-sans bg-[linear-gradient(90deg,#d1d1d1_40%,rgba(0,0,0,0)_150%)] bg-clip-text text-transparent '>Beautiful. Intuitive. Powerful.</p>
         <p className='font-alt font-[400] font-[16px] text-[#FFFFFF] bg-[linear-gradient(90deg,#d1d1d1_40%,rgba(0,0,0,0)_150%)] bg-clip-text text-transparent'>The AI-Native CRM built to acquire lifelong customers.</p>

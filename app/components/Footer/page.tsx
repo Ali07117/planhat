@@ -2,10 +2,10 @@ import React from 'react';
 
 function Footer() {
     return (
-        <div className='mx-[100px] footer-container  mt-[80px]'>
-            <div className='flex items-center justify-between footer-box h-[500px]'>
+        <div className='mx-[200px] mx-200 footer-container  mt-[80px]'>
+            <div className='flex items-center justify-between footer-box min-h-[500px]'>
                 <div className="left h-[100%] footer-link-main  w-[70%] -bg-[red] ">
-                    <div className='flex footer-links-container flex-wrap gap-[90px]'>
+                    <div className='flex footer-links-container flex-wrap gap-[60px]'>
 
 
                         <div>
