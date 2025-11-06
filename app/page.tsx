@@ -11,7 +11,7 @@ import Marque from "./components/Marque/page";
 function Page() {
   return (
     <>
-    <div className="h-[100%] w-[100%] bg-[#000]">
+    <div className="h-[100%] w-[100%] bg-[#000] max-w-[1700px] m-auto">
      <Navbar/>
      <Hero/>
      <Marque/>
